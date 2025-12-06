@@ -11,7 +11,7 @@ def linear_search(num_list, target):
     if x == "":
       continue
       
-    x = x.strip() # Makes sure that x is equated to only a number for the given index
+    x = x.strip() # Removes any spaces before and after the number being evaluted at a given index (will remove any arbitrary amount of spaces)
     
     try:
       arr.append(int(x)) # Establishes the cleaned up number as an integer and appends it to the list arr
@@ -32,3 +32,12 @@ def linear_search(num_list, target):
   # If no target is found at the end of the loop:
   steps.append(f"\n Target {target} NOT FOUND in the list.")
   return "\n".join(steps)
+
+
+
+
+# Gradio UI
+app = gr.Interface(fn = linear_search, inputs = [gr.Textbox(label = "Enter a list of numbers separated by commas"),
+                                                 gr.Textbox(label = "Enter the target value")],
+                   outputs = gr.Textbox(label = "Search Steps"), title = "Linear Search Algorithm", description = """This app will run a linear search step-by-step and show every step.
+Enter a list of integers separated by commas, and then a target value to begin.""")
