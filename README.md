@@ -14,7 +14,7 @@ Linear searching can be broken down into a few clear steps:
 1. Receive input as a list of values and a target to search for.
 2. Compare the first element of the list to the target.
 3. If they match, return the index and stop.
-4. If they do not match, move to the next index.
+4. If they do not match, move to the next index and repeat.
 5. If the end of the list is reached and the target wasn't found return "Not found".
 
 ### Pattern Recognition
