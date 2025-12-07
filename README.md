@@ -47,3 +47,5 @@ Output: The index where the target was found in the list or "Not found". Additio
 <img width="2341" height="340" alt="screenshot_1765124193" src="https://github.com/user-attachments/assets/65edc646-491f-432d-9d64-b3dc0f144825" />
 <img width="2350" height="324" alt="screenshot_1765124138" src="https://github.com/user-attachments/assets/16dbc3ca-f961-4659-9ae7-a63af2567d41" />
 <img width="2343" height="324" alt="screenshot_1765124218" src="https://github.com/user-attachments/assets/4a0970c0-76c6-4517-8b4c-3af8540244bc" />
+<img width="2345" height="320" alt="screenshot_1765125318" src="https://github.com/user-attachments/assets/c5bc3c6e-4599-44dd-944d-5a40ab25aeae" />
+
