@@ -42,7 +42,7 @@ import gradio as gr
 app = gr.Interface(fn = linear_search,
                    inputs = [gr.Textbox(label = "Enter a list of numbers separated by commas"),
                              gr.Textbox(label = "Enter the target value")],
-                   outputs = gr.Textbox(label = "Search Steps"),
+                   outputs = gr.Textbox(label = "Search Steps", max_lines = 20),
                    title = "Linear Search Algorithm",
                    description = """This app will run a linear search step-by-step and show every step.
                    Enter a list of integers separated by commas, and then a target value to begin.""")
