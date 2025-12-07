@@ -33,7 +33,7 @@ Output: The index where the target was found in the list or "Not found". Additio
 
 ## Test Cases
 ### Standard Valid Inputs:
-<img width="2352" height="354" alt="screenshot_1765123952" src="https://github.com/user-attachments/assets/05d26396-ec8c-4966-8fe3-b91a0a101f48" />
+<img width="2349" height="333" alt="screenshot_1765125051" src="https://github.com/user-attachments/assets/cbbc7b0c-21c5-4afa-97ca-9742064ff6ff" />
 <img width="2347" height="338" alt="screenshot_1765124005" src="https://github.com/user-attachments/assets/b9b5bbe4-1596-4841-8051-a496d3cbe610" />
 <img width="2347" height="324" alt="screenshot_1765123988" src="https://github.com/user-attachments/assets/7bfe5cea-a170-4470-aa4f-32ea387fbbe0" />
 <img width="2345" height="324" alt="screenshot_1765124070" src="https://github.com/user-attachments/assets/e2546ec6-bcb3-419a-92b2-1b86fbf5c227" />
