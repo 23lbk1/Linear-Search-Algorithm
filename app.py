@@ -45,7 +45,7 @@ app = gr.Interface(fn = linear_search,
                    outputs = gr.Textbox(label = "Search Steps"),
                    title = "Linear Search Algorithm",
                    description = """This app will run a linear search step-by-step and show every step.
-Enter a list of integers separated by commas, and then a target value to begin.""")
+                   Enter a list of integers separated by commas, and then a target value to begin.""")
 
 if __name__ == "__main__": # Prevents app from launching when importing the algoritm
   app.launch()
