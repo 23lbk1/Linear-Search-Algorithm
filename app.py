@@ -17,12 +17,13 @@ def linear_search(num_list, target):
     except ValueError:
       return "Error: Please enter a list of integers separated by commas."
 
+  # Prevent empty and invalid input
   if not arr:
     return "Error: Please enter at least one valid integer."
   
-  steps = [] # Stores each step of the search
+  steps = [] # Stores each step of the search to be displayed on the Gradio UI
   
-  # Linear Search
+  # Linear Search: scans left to right and records each comparison
   for index, value in enumerate(arr):
     steps.append(f"Checking index {index}: value = {value}")
 
