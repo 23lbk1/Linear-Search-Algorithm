@@ -31,6 +31,15 @@ Processing: Iterate through the list left to right, comparing each element to th
 Output: The index where the target was found in the list or "Not found". Additionally, each iterated step (i.e. the index, current value being compared, and if it matches target) is displayed on the UI.
 
 
+## Steps to Run
+1. Locally
+  1. Download the Github library zip file, extract the files.
+  2. Install dependencies - run "pip install -r requirements.txt" in your terminal.
+  3. Run the app - run "python app.py" in your terminal, then open the local Gradio link.
+2. Online
+  1. Open the hugging face link of the app - https://23lbk1-linear-search-algorithm-app.hf.space/?logs=container&__theme=system&deep_link=2KQs0f7LRVA
+
+
 ## Test Cases
 ### Valid Inputs:
 <img width="2349" height="333" alt="screenshot_1765125051" src="https://github.com/user-attachments/assets/cbbc7b0c-21c5-4afa-97ca-9742064ff6ff" />
@@ -49,3 +58,7 @@ Output: The index where the target was found in the list or "Not found". Additio
 <img width="2343" height="324" alt="screenshot_1765124218" src="https://github.com/user-attachments/assets/4a0970c0-76c6-4517-8b4c-3af8540244bc" />
 <img width="2345" height="320" alt="screenshot_1765125318" src="https://github.com/user-attachments/assets/c5bc3c6e-4599-44dd-944d-5a40ab25aeae" />
 
+
+## Author & Acknowledgment
+Author: Benjamin Harris
+Tools used: Python, Gradio, Hugging Face
