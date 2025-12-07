@@ -29,3 +29,5 @@ To maintain simplicity, the user won't see:
 Input: A list of numbers and a target number.
 Processing: Iterate through the list left to right, comparing each element to the target.
 Output: The index where the target was found in the list or "Not found". Additionally, each iterated step (i.e. the index, current value being compared, and if it matches target) is displayed on the UI.
+
+<img width="2352" height="354" alt="screenshot_1765123952" src="https://github.com/user-attachments/assets/05d26396-ec8c-4966-8fe3-b91a0a101f48" />
