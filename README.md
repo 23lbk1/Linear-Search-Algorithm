@@ -33,11 +33,11 @@ Output: The index where the target was found in the list or "Not found". Additio
 
 ## Steps to Run
 1. Locally
-  1. Download the Github library zip file, extract the files.
-  2. Install dependencies - run "pip install -r requirements.txt" in your terminal.
-  3. Run the app - run "python app.py" in your terminal, then open the local Gradio link.
+  - Download the Github library zip file, extract the files.
+  - Install dependencies - run "pip install -r requirements.txt" in your terminal.
+  - Run the app - run "python app.py" in your terminal, then open the local Gradio link.
 2. Online
-  1. Open the hugging face link of the app - https://23lbk1-linear-search-algorithm-app.hf.space/?logs=container&__theme=system&deep_link=2KQs0f7LRVA
+  - Open the hugging face link of the app - https://23lbk1-linear-search-algorithm-app.hf.space/?logs=container&__theme=system&deep_link=2KQs0f7LRVA
 
 
 ## Test Cases
